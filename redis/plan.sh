@@ -17,6 +17,7 @@ pkg_exports=(
 pkg_exposes=(port)
 
 do_before() {
+  sleep 30
   echo "WHOOPS"
   exit 1
 }
